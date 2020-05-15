@@ -9,6 +9,7 @@ This bitcoin market that made me jealous made me start to try it, but I did n’
 ### Environment
 Miniconda + Jupyter Notebook.
 Main packages used:
+```
 	import pandas as pd
 	import time
 	import seaborn as sns
@@ -20,6 +21,7 @@ Main packages used:
 	from keras.layers import Activation, Dense
 	from keras.layers import LSTM
 	from keras.layers import Dropout
+```
 
 all packages in environment:
 ```
