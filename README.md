@@ -22,7 +22,7 @@ Main packages used:
 	from keras.layers import Dropout
 
 all packages in environment:
-
+```
   Name                    Version                   Build  Channel
 _tflow_select             2.2.0                     eigen
 absl-py                   0.9.0                    py37_0
@@ -173,6 +173,7 @@ yaml                      0.1.7                hc54c509_2
 zeromq                    4.3.1                h33f27b4_3
 zipp                      2.2.0                      py_0
 zlib                      1.2.11               h62dcd97_4
+```
 
 ### How to used
 Use Jupyter Notebook to load 2020-5-15-msa-bitcoin-prediction.ipynb in this project.
