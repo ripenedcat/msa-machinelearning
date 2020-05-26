@@ -177,7 +177,7 @@ zipp                      2.2.0                      py_0
 zlib                      1.2.11               h62dcd97_4
 ```
 
-### How to used
+### How to use
 Use Jupyter Notebook to load 2020-5-15-msa-bitcoin-prediction.ipynb in this project.
 
 ### More details
