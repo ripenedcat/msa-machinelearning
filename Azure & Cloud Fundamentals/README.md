@@ -197,27 +197,24 @@ Due to its multiple settings for minimizing JavaScript and Custom Style Sheet (C
 I would not write too much here about the detailed comparison between the two cache management tools. Finally I chose to use WP Super Cache due to its lightweight, simple, reliable, and free caching solution. Detailed comparison can be found [here](https://www.hostinger.com/tutorials/wp-super-cache-vs-w3-total-cache).
 
 #### 3.2.3 WP Super Cache Implementation
-
-
-安装
 ![](https://github.com/ripenedcat/msa-machinelearning/raw/master/Azure%20%26%20Cloud%20Fundamentals/png/9.png)
-3.1Easy tab
-首先到通用 tab 下，打开缓存功能。
+##### 3.1 Easy tab
+First go to the general tab and turn on the cache function.
 
-3.2 
-我个人的设置方法如下图。基本方法就是打开所有系统推荐的选项，并将缓存刷新设置为1天1次以提高访问速度。
+##### 3.2 Advanced Tab
+My personal setting method is shown below. The basic method is to open all the options recommended by the system, and set the cache refresh to once a day to improve access speed.
+
 ![](https://github.com/ripenedcat/msa-machinelearning/raw/master/Azure%20%26%20Cloud%20Fundamentals/png/10.png)
 ![](https://github.com/ripenedcat/msa-machinelearning/raw/master/Azure%20%26%20Cloud%20Fundamentals/png/11.png)
 ![](https://github.com/ripenedcat/msa-machinelearning/raw/master/Azure%20%26%20Cloud%20Fundamentals/png/12.png)
 
 
+By default, cache is based on the user access driver, and the pre-cache makes the user have not yet accessed, you can first generate a cache file. The pre-cache page operates as follows, select 0 minutes, that is, do not refresh the pre-cache file. If there are too many blog posts, frequent refreshes will affect system performance. In particular, web hosting is not recommended.
 
-
-默认缓存是基于用户访问驱动的，预缓存则使得用户还没访问，可以先生成缓存文件。预缓存页面如下操作，选择0分钟，也就是不刷新预缓存文件。如果博客文章太多，刷新频繁时会影响系统性能。尤其是虚拟主机不建议这样做。
 ![](https://github.com/ripenedcat/msa-machinelearning/raw/master/Azure%20%26%20Cloud%20Fundamentals/png/13.png)
 
-CDN界面不建议进行配置，但若你的网站服务器位于较为偏远的为止，例如中国，则最好配置当地的CDN来提高世界访问速度，例如阿里云。
-其他设置基本不需要进行改动，这里不再一一赘述。
+It is not recommended to configure the CDN interface, but if your website server is located in a remote place, such as China, it is best to configure the local CDN to increase the speed of world access, such as Alibaba Cloud.
+Other settings basically do not need to be changed, so I won't repeat them one by one here.
 
 ### 3.3 Analytics plugin
 
@@ -230,9 +227,18 @@ Although manually installing Google Analytics allows you to collect basic traffi
 On the other hand, MonsterInsights can easily install Google Analytics with just a few clicks. MonsterInsights is the most popular WordPress Google Analytics plugin in existence. To enable enhanced tracking, you only need a few clicks or install the appropriate plugin. Since you never need to touch any line of code, you can save your precious time during the entire installation process.
 
 #### 3.3.2 MonsterInsight Installation
+##### a) Creating Google Analytics account
+1. Click here to go to Google Analytics.
+2. Click Create an account.
+3. Once you have signed in to your Google account, click Access Google Analytics.
+##### b) Link your Google Analytics account to MonsterInsight
+Complete the login and binding of Google Analytics account according to the Monster Insight page prompt. Since I have completed this part, there is no picture guide.
 
+##### c) Look at your website overview
+You can see your website data of sessions, pageviews, average session duration and bounce rate.
 
-
+![](https://github.com/ripenedcat/msa-machinelearning/raw/master/Azure%20%26%20Cloud%20Fundamentals/png/21.png)
+![](https://github.com/ripenedcat/msa-machinelearning/raw/master/Azure%20%26%20Cloud%20Fundamentals/png/22.png)
 
 ## 4. Other Plugin installed
 
