@@ -155,7 +155,7 @@ Add Twitter card meta data keep default enabled here
 The default card type to use select Summary with large Image.
 
 Then click save changes
-###### d) Pinterest子菜单
+###### d) Pinterest
 I don’t use Pinterest, so don’t worry about it here.
 
 ##### 3.1.2.4 Tools Submenu
