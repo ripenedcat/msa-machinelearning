@@ -169,8 +169,8 @@ You can batch edit the title and description of all your pages here.
 ###### c) Text link counter
 Click once, he will calculate all the links in all your articles once, so that it is convenient for you to make a SEO setting, and the result of this calculation will also be displayed on the summary page menu of each page
 
-https://www.imhunk.com/yoast-seo-plugin/
-
+#### 3.1.3 Benifits after implementing Yoast SEO
+It improves the ranking of my website in search engines, thereby increasing the number of website visits, and ultimately improving the website’s sales or promotion skills
 ### 3.2 Cache Management
 
 The two major contenders for the best WordPress cache plugin are:
@@ -216,6 +216,11 @@ By default, cache is based on the user access driver, and the pre-cache makes th
 It is not recommended to configure the CDN interface, but if your website server is located in a remote place, such as China, it is best to configure the local CDN to increase the speed of world access, such as Alibaba Cloud.
 Other settings basically do not need to be changed, so I won't repeat them one by one here.
 
+#### 3.2.4 Benifits after implementing WP Super Cache
+WP Super Cache generates static HTML files for my WordPress site. When a visitor visits a certain page of the website, the server can directly display the pre-cached HTML page to him, without the need to spend time and effort to run PHP to generate the HTML file instantly, which not only speeds up the page access speed, but also reduces the server CPU usage.
+
+The acceleration of page access speed not only helps to improve the user experience, but also helps to improve the SEO ranking of the website.
+
 ### 3.3 Analytics plugin
 
 #### 3.3.1 Introduction to MonsterInsight
@@ -240,6 +245,9 @@ You can see your website data of sessions, pageviews, average session duration a
 ![](https://github.com/ripenedcat/msa-machinelearning/raw/master/Azure%20%26%20Cloud%20Fundamentals/png/21.png)
 ![](https://github.com/ripenedcat/msa-machinelearning/raw/master/Azure%20%26%20Cloud%20Fundamentals/png/22.png)
 
+#### 3.3.3 Benifits after implementing MonsterInsight
+Help me better understand users' Insight, and then continue to improve and strengthen the operation of my website.
+
 ## 4. Other Plugin installed
 
 **Akismet Anti-Spam**<br>
@@ -251,3 +259,9 @@ The webmaster ’s greatest fear is that the website crashes, and the server can
 
 **WP Editor.md**<br>
 How could a blog be without markdown? WP Editor.md allows you to use markdown at each posts.
+
+## 5. Theme
+
+My site is using the kratos-pjax theme. It's a really beautiful theme, thanks for the author! I've done several modifications. Please enjoy!
+
+[Theme github](https://github.com/xb2016/kratos-pjax)
